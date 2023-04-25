@@ -8518,6 +8518,30 @@ area {
   background: #323A56;
 }
 
+.second-session-text2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.second-session-text2::before {
+  content: '';
+  width: 55px;
+  height: 8px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  margin: auto;
+  background: #fff;
+}
+
 .service-line {
   margin: 5px 0px;
 }
@@ -8545,8 +8569,12 @@ area {
 
 .method-bg {
   background-image: url("/assets/img/Vector 7.svg");
-  height: 100vh;
-  width: 1075px;
+  height: 120vh;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.method-bg .method-content {
+  padding: 95px 0px 10px 0px;
 }
 /*# sourceMappingURL=style.css.map */
