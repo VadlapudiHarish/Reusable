@@ -949,6 +949,12 @@ Search Overlay CSS
   color: #1a1b1e;
   padding: 3px 0 0 25px;
 }
+.search-overlay .search-form form .input-search:-ms-input-placeholder {
+  -ms-transition: 0.7s;
+  transition: 0.7s;
+  letter-spacing: 0.5px;
+  color: #1a1b1e;
+}
 .search-overlay .search-form form .input-search::-moz-placeholder {
   -moz-transition: 0.7s;
   transition: 0.7s;
@@ -963,6 +969,9 @@ Search Overlay CSS
 .search-overlay .search-form form .input-search:focus {
   border: none;
   outline: none;
+}
+.search-overlay .search-form form .input-search:focus:-ms-input-placeholder {
+  color: transparent;
 }
 .search-overlay .search-form form .input-search:focus::-moz-placeholder {
   color: transparent;
@@ -1189,31 +1198,36 @@ Main Banner Area CSS
   position: absolute;
   left: 0;
   top: 15%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .banner-shape .shape2 {
   position: absolute;
   left: 32%;
   top: 15%;
-  animation: pulse 7s infinite;
+  -webkit-animation: pulse 7s infinite;
+          animation: pulse 7s infinite;
 }
 .banner-shape .shape3 {
   position: absolute;
   left: 25%;
   top: 17%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .banner-shape .shape4 {
   position: absolute;
   left: 50%;
   top: 40%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .banner-shape .shape5 {
   position: absolute;
   left: 60%;
   top: 25%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .banner-area-two {
@@ -1362,7 +1376,8 @@ Main Banner Area CSS
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: movebounce-up 9s infinite;
+  -webkit-animation: movebounce-up 9s infinite;
+          animation: movebounce-up 9s infinite;
 }
 .banner-img-2 .inner-img {
   position: absolute;
@@ -1394,13 +1409,15 @@ Main Banner Area CSS
   position: absolute;
   top: 22%;
   left: 35%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 .banner-bottom-shape .banner-dots2 {
   position: absolute;
   bottom: 13%;
   right: 12%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 .banner-area-three {
@@ -1623,13 +1640,15 @@ Inner Banner
   position: absolute;
   top: 22%;
   left: 35%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 .inner-banner .inner-banner-shape .inner-banner-dots-2 {
   position: absolute;
   bottom: 32%;
   right: 10%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 /*================================
@@ -1806,25 +1825,29 @@ About Area
   position: absolute;
   top: 7%;
   right: 30%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 .about-shape .shape-3 {
   position: absolute;
   top: 30%;
   right: 10%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .about-shape .shape-4 {
   position: absolute;
   top: 70%;
   right: 7%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .about-shape .shape-5 {
   position: absolute;
   top: 80%;
   right: 15%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 
 .about-content-two .section-title h2 {
@@ -2106,13 +2129,15 @@ Schedule Area
   position: absolute;
   bottom: 50px;
   left: 3%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .schedule-content .schedule-content-shape .shape2 {
   position: absolute;
   bottom: 100px;
   right: 5%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .schedule-shape {
@@ -2262,7 +2287,8 @@ Progress Area
   position: relative;
 }
 .progress-card:hover::before {
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .progress-card::before {
   content: "";
@@ -2378,13 +2404,15 @@ Progress Area
   position: absolute;
   top: 30%;
   left: 20%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 .service-shape .shape2 {
   position: absolute;
   top: 30%;
   right: 3%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .service-area-two {
@@ -2451,7 +2479,8 @@ Progress Area
   right: 0;
   border: 1px dashed #1a1b1e;
   border-radius: 50px;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 .service-item .service-item-img .img-circle::after {
   content: "";
@@ -2469,10 +2498,12 @@ Progress Area
   top: 25px;
   position: relative;
   z-index: 1;
-  animation: none;
+  -webkit-animation: none;
+          animation: none;
 }
 .service-item .service-item-img a img {
-  animation: none;
+  -webkit-animation: none;
+          animation: none;
   max-width: 100%;
   height: 40px;
 }
@@ -2502,38 +2533,44 @@ Progress Area
 .service-item .learn-btn:hover i {
   color: #2966be;
   border-color: #2966be;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 
 .service-two-shape .shape-in1 {
   position: absolute;
   top: 0;
   left: 20%;
-  animation: flash 3s infinite linear;
+  -webkit-animation: flash 3s infinite linear;
+          animation: flash 3s infinite linear;
 }
 .service-two-shape .shape-in2 {
   position: absolute;
   top: 30%;
   left: 5%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 .service-two-shape .shape-in3 {
   position: absolute;
   top: 40%;
   left: 2%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .service-two-shape .shape-in4 {
   position: absolute;
   top: 45%;
   right: 5%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .service-two-shape .shape-in5 {
   position: absolute;
   top: 60%;
   right: 2%;
-  animation: flash 3s infinite linear;
+  -webkit-animation: flash 3s infinite linear;
+          animation: flash 3s infinite linear;
 }
 
 .service-another {
@@ -2624,7 +2661,8 @@ Progress Area
 .service-another-card:hover .learn-btn i {
   color: #ffffff;
   border-color: #ffffff;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 .service-another-card::before {
   content: "";
@@ -2685,44 +2723,51 @@ Progress Area
 .service-another-card .learn-btn:hover i {
   color: #ffffff;
   border-color: #ffffff;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 
 .service-another-shape .shape-1 {
   position: absolute;
   top: 10%;
   left: 10%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 .service-another-shape .shape-2 {
   position: absolute;
   top: 50%;
   left: 3%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .service-another-shape .shape-3 {
   position: absolute;
   top: 80%;
   left: 1%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .service-another-shape .shape-4 {
   position: absolute;
   top: 13%;
   right: 5%;
-  animation: running-in 10s infinite linear;
+  -webkit-animation: running-in 10s infinite linear;
+          animation: running-in 10s infinite linear;
 }
 .service-another-shape .shape-5 {
   position: absolute;
   top: 35%;
   right: 3%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .service-another-shape .shape-6 {
   position: absolute;
   top: 55%;
   right: 1%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .service-icon-bg {
@@ -4014,25 +4059,29 @@ Mission Area
   position: absolute;
   top: 10%;
   left: 2%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 .mission-shape .shape2 {
   position: absolute;
   top: 64%;
   left: 1%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .mission-shape .shape3 {
   position: absolute;
   top: 10%;
   right: 45%;
-  animation: rotated360 15s linear infinite;
+  -webkit-animation: rotated360 15s linear infinite;
+          animation: rotated360 15s linear infinite;
 }
 .mission-shape .shape4 {
   position: absolute;
   top: 15%;
   right: 7%;
-  animation: running-in 15s linear infinite;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
 }
 
 /*==================================
@@ -4184,37 +4233,43 @@ Pricing Area
   position: absolute;
   top: 20%;
   left: 0%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 .pricing-shape .shape2 {
   position: absolute;
   top: 50%;
   left: 1%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 .pricing-shape .shape3 {
   position: absolute;
   bottom: 3%;
   left: 3%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 .pricing-shape .shape4 {
   position: absolute;
   top: 7%;
   right: 7%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .pricing-shape .shape5 {
   position: absolute;
   top: 25%;
   right: 0;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 .pricing-shape .shape6 {
   position: absolute;
   top: 65%;
   right: 2%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 /*==================================
@@ -4312,28 +4367,32 @@ Team Area
 }
 .team-item .team-content .social-link li:nth-child(1) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .team-item .team-content .social-link li:nth-child(2) a {
   color: #55acee;
 }
 .team-item .team-content .social-link li:nth-child(2) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .team-item .team-content .social-link li:nth-child(3) a {
   color: #ff0000;
 }
 .team-item .team-content .social-link li:nth-child(3) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .team-item .team-content .social-link li:nth-child(4) a {
   color: #c80000;
 }
 .team-item .team-content .social-link li:nth-child(4) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-shape .team-shape1 {
@@ -4346,62 +4405,72 @@ Team Area
   position: absolute;
   top: 20%;
   left: 10%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 .team-shape .team-shape3 {
   position: absolute;
   top: 20%;
   right: 10%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .team-shape .team-shape4 {
   position: absolute;
   bottom: 5%;
   right: 40%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .team-two-shape .shape1 {
   position: absolute;
   top: 5%;
   left: 5%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 .team-two-shape .shape2 {
   position: absolute;
   top: 40%;
   left: 2%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .team-two-shape .shape3 {
   position: absolute;
   top: 60%;
   left: 1%;
-  animation: running-in 15s linear infinite;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
 }
 .team-two-shape .shape4 {
   position: absolute;
   top: 5%;
   right: 10%;
-  animation: movebounce-up 4s linear infinite;
+  -webkit-animation: movebounce-up 4s linear infinite;
+          animation: movebounce-up 4s linear infinite;
 }
 .team-two-shape .shape5 {
   position: absolute;
   top: 35%;
   right: 3%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 .team-two-shape .shape6 {
   position: absolute;
   top: 65%;
   right: 5%;
-  animation: running-in 15s linear infinite;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
 }
 .team-two-shape .shape7 {
   position: absolute;
   bottom: 0;
   right: 35%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .team-area-two {
@@ -4533,28 +4602,32 @@ Team Area
 }
 .team-card .content .social-link li:nth-child(1) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .team-card .content .social-link li:nth-child(2) a {
   color: #55acee;
 }
 .team-card .content .social-link li:nth-child(2) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .team-card .content .social-link li:nth-child(3) a {
   color: #ff0000;
 }
 .team-card .content .social-link li:nth-child(3) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .team-card .content .social-link li:nth-child(4) a {
   color: #c80000;
 }
 .team-card .content .social-link li:nth-child(4) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-card-mt {
@@ -4601,7 +4674,8 @@ Testimonial Area
   position: absolute;
   top: -20px;
   left: 5%;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-2 {
   position: absolute;
@@ -4609,25 +4683,29 @@ Testimonial Area
   left: 0;
   right: 0;
   text-align: center;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-3 {
   position: absolute;
   top: 60%;
   left: -50px;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-4 {
   position: absolute;
   top: 5%;
   right: -20px;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 .testimonial-list .list-img-5 {
   position: absolute;
   bottom: 0;
   right: 110px;
-  animation: pulse 2s linear infinite;
+  -webkit-animation: pulse 2s linear infinite;
+          animation: pulse 2s linear infinite;
 }
 
 .testimonial-title h2 {
@@ -4782,25 +4860,29 @@ Testimonial Area
   position: absolute;
   top: 30%;
   left: 2%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 .blog-shape .shape2 {
   position: absolute;
   top: 60%;
   left: 4%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 .blog-shape .shape3 {
   position: absolute;
   top: 50%;
   right: 2%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 .blog-shape .shape4 {
   position: absolute;
   top: 80%;
   right: 4%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .blog-area-widget .title h2 {
@@ -4957,35 +5039,40 @@ Blog Details Area
 }
 .blog-article .blog-article-share .social-icon li:nth-child(1) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(2) a {
   background-color: #55acee;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(2) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(3) a {
   background-color: #3f729b;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(3) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(4) a {
   background-color: #ff0000;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(4) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(5) a {
   background-color: #c80000;
 }
 .blog-article .blog-article-share .social-icon li:nth-child(5) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .blog-article .article-author {
   margin-bottom: 40px;
@@ -5630,6 +5717,10 @@ Contact Area
   outline: none;
 }
 
+.contact-form .form-group .form-control:-ms-input-placeholder {
+  color: #7f7f7f;
+}
+
 .contact-form .form-group .form-control::-moz-placeholder {
   color: #7f7f7f;
 }
@@ -5816,35 +5907,40 @@ Footer Area
 }
 .footer-social-icon .social-link li:nth-child(1) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(2) a {
   background-color: #55acee;
 }
 .footer-social-icon .social-link li:nth-child(2) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(3) a {
   background-color: #3f729b;
 }
 .footer-social-icon .social-link li:nth-child(3) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(4) a {
   background-color: #0a66c2;
 }
 .footer-social-icon .social-link li:nth-child(4) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 .footer-social-icon .social-link li:nth-child(5) a {
   background-color: #c80000;
 }
 .footer-social-icon .social-link li:nth-child(5) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .footer-widget h3 {
@@ -6268,7 +6364,8 @@ Preloader CSS
   border-radius: 5px;
   background-color: #ffffff;
   margin: 100px auto;
-  animation: rotate-in 1.2s infinite ease-in-out;
+  -webkit-animation: rotate-in 1.2s infinite ease-in-out;
+          animation: rotate-in 1.2s infinite ease-in-out;
 }
 
 /*==================================
@@ -6312,12 +6409,31 @@ Back To Top Button
 /*==================================
 Animation CSS
 ====================================*/
+@-webkit-keyframes rotated360 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
 @keyframes rotated360 {
   0% {
     transform: rotateZ(0deg);
   }
   100% {
     transform: rotateZ(-360deg);
+  }
+}
+@-webkit-keyframes rotate-in {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
 @keyframes rotate-in {
@@ -6329,6 +6445,26 @@ Animation CSS
   }
   100% {
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+@-webkit-keyframes animationFramesOne {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg);
+  }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg);
+  }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg);
+  }
+  80% {
+    transform: translate(-40px, 72px) rotate(144deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
   }
 }
 @keyframes animationFramesOne {
@@ -6351,6 +6487,17 @@ Animation CSS
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
+@-webkit-keyframes opacity-option {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.05;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes opacity-option {
   0% {
     opacity: 1;
@@ -6360,6 +6507,17 @@ Animation CSS
   }
   100% {
     opacity: 1;
+  }
+}
+@-webkit-keyframes running-in {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-10px, 150px);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
 @keyframes running-in {
@@ -6373,6 +6531,17 @@ Animation CSS
     transform: translate(0, 0);
   }
 }
+@-webkit-keyframes movebounce-in {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(70px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
 @keyframes movebounce-in {
   0% {
     transform: translateX(0px);
@@ -6384,6 +6553,17 @@ Animation CSS
     transform: translateX(0px);
   }
 }
+@-webkit-keyframes movebounce-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 @keyframes movebounce-up {
   0% {
     transform: translateY(0px);
@@ -6393,6 +6573,19 @@ Animation CSS
   }
   100% {
     transform: translateY(0px);
+  }
+}
+@-webkit-keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.75);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
   }
 }
 @keyframes ripple {
@@ -6540,8 +6733,10 @@ Buy Now Btn
   background-repeat: no-repeat;
   z-index: -99;
   top: calc(100% - 125px);
-  animation-delay: 5s;
-  animation: flash 5s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 .session-third::after {
   content: "";
@@ -6554,8 +6749,10 @@ Buy Now Btn
   background-repeat: no-repeat;
   z-index: -99;
   top: calc(100% - 125px);
-  animation: flash 5s infinite;
-  animation-delay: 5s;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
   background-position: right;
   right: 0;
 }
@@ -6635,14 +6832,16 @@ Buy Now Btn
   transition: all 0.9s;
   border-radius: 10rem;
   z-index: -1;
-  animation: gani 0.9s infinite;
+  -webkit-animation: gani 0.9s infinite;
+          animation: gani 0.9s infinite;
 }
 .play-more:hover {
   color: #fff;
 }
 .play-more:hover:before {
   width: 100%;
-  animation: gani 0s 1;
+  -webkit-animation: gani 0s 1;
+          animation: gani 0s 1;
 }
 
 .footer-list-line {
@@ -6651,6 +6850,15 @@ Buy Now Btn
 
 .w-80 {
   width: 80%;
+}
+
+@-webkit-keyframes gani {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
 }
 
 @keyframes gani {
@@ -6689,6 +6897,27 @@ Buy Now Btn
   display: none;
 }
 
+@-webkit-keyframes result {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+  from {
+    transform: translateY(5%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
 @keyframes result {
   0% {
     opacity: 0;
@@ -6719,9 +6948,16 @@ Buy Now Btn
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  -webkit-animation: textclip 2s linear infinite;
+          animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 190px;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 @keyframes textclip {
@@ -6765,7 +7001,8 @@ area {
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
-  animation: animate 25s linear infinite;
+  -webkit-animation: animate 25s linear infinite;
+          animation: animate 25s linear infinite;
   bottom: -150px;
 }
 
@@ -6784,75 +7021,103 @@ area {
   left: 25%;
   width: 80px;
   height: 80px;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .circles li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
-  animation-delay: 2s;
-  animation-duration: 12s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
 }
 
 .circles li:nth-child(3) {
   left: 70%;
   width: 20px;
   height: 20px;
-  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .circles li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
-  animation-delay: 0s;
-  animation-duration: 18s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
 }
 
 .circles li:nth-child(5) {
   left: 65%;
   width: 20px;
   height: 20px;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .circles li:nth-child(6) {
   left: 75%;
   width: 110px;
   height: 110px;
-  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .circles li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
-  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .circles li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
-  animation-delay: 15s;
-  animation-duration: 45s;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
 }
 
 .circles li:nth-child(9) {
   left: 20%;
   width: 15px;
   height: 15px;
-  animation-delay: 2s;
-  animation-duration: 35s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
 }
 
 .circles li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
-  animation-delay: 0s;
-  animation-duration: 11s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-900px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
 }
 
 @keyframes animate {
@@ -6938,10 +7203,8 @@ area {
 
 .whats-app {
   width: 40px;
-  height: 45px;
   background: #3498db;
   position: fixed;
-  top: 50%;
   right: 0;
   z-index: 9999;
   display: flex;
@@ -6950,6 +7213,8 @@ area {
   font-weight: 700;
   margin-left: 5px;
   font-size: 16px;
+  top: 278px;
+  height: 38px;
 }
 .whats-app a {
   visibility: hidden;
@@ -6957,7 +7222,7 @@ area {
 }
 .whats-app.email-img {
   background: #ea2e30;
-  top: 57%;
+  top: 319px !important;
 }
 .whats-app:hover {
   width: 220px;
