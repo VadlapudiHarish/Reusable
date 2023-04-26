@@ -7034,7 +7034,7 @@ Buy Now Btn
     width: 5em !important;
     height: 5em !important;
     border-radius: 5px;
-    border: 2px solid rgb(183 168 168 / 79%)
+    // border: 2px solid rgb(183 168 168 / 79%)
 }
 .set-color{
     color: #ffff00; 
@@ -7380,4 +7380,97 @@ top: 10px;
 .mean-menu{
     position: relative;
     left: 13px;
+}
+
+.second-session-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #323A56;
+    border-bottom: 2px solid #323A56;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+
+    &::before {
+        content: '';
+        width: 55px;
+        height: 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -4px;
+        margin: auto;
+        background: #323A56;
+    }
+}
+
+
+.second-session-text2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 5px;
+
+    &::before {
+        content: '';
+        width: 55px;
+        height: 8px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -4px;
+        margin: auto;
+        background: #fff;
+    }
+}
+// .service-trai{
+//     position: absolute;
+//     &::before{
+//         content: "";
+//         position: relative;
+//         background-image: url("../img/Frame.svg");
+//         background-repeat: no-repeat;
+//         width: 50%;
+//         height: 50%;
+//     }
+// }
+
+.service-line{
+    margin: 5px 0px;
+    p{
+        line-height: 1;
+        color: #1E5FAB;
+        font-weight: 700;
+    }
+}
+
+.service-components{
+    border: 3px solid #1E5FAB;
+    padding: 10px;
+    width: fit-content;
+    flex-direction: column;
+    width: 235px;
+    height: 235px;
+    line-height: 6;
+    // display: flex;
+}
+
+.method-bg{
+    background-image: url("/assets/img/Vector\ 7.svg");
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // position: relative;
+    // width: 100%;
+
+    .method-content{
+        padding: 95px 0px 10px 0px;
+    }
 }
