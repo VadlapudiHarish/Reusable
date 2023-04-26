@@ -300,7 +300,7 @@ Section Title Style
 .section-title p {
   padding-top: 10px;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -1115,10 +1115,6 @@ Search Overlay CSS
   color: #1a1b1e;
   padding: 3px 0 0 25px;
 }
-<<<<<<< HEAD
-.search-overlay .search-form form .input-search::-moz-placeholder {
-  -moz-transition: 0.7s;
-=======
 
 .search-overlay .search-form form .input-search::-webkit-input-placeholder {
   -webkit-transition: 0.7s;
@@ -1136,7 +1132,6 @@ Search Overlay CSS
 
 .search-overlay .search-form form .input-search::-ms-input-placeholder {
   -webkit-transition: 0.7s;
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
   transition: 0.7s;
   letter-spacing: .5px;
   color: #1a1b1e;
@@ -1153,9 +1148,6 @@ Search Overlay CSS
   border: none;
   outline: none;
 }
-<<<<<<< HEAD
-.search-overlay .search-form form .input-search:focus::-moz-placeholder {
-=======
 
 .search-overlay .search-form form .input-search:focus::-webkit-input-placeholder {
   color: transparent;
@@ -1166,7 +1158,6 @@ Search Overlay CSS
 }
 
 .search-overlay .search-form form .input-search:focus::-ms-input-placeholder {
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
   color: transparent;
 }
 
@@ -1428,35 +1419,40 @@ Main Banner Area CSS
   position: absolute;
   left: 0;
   top: 15%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .banner-shape .shape2 {
   position: absolute;
   left: 32%;
   top: 15%;
-  animation: pulse 7s infinite;
+  -webkit-animation: pulse 7s infinite;
+          animation: pulse 7s infinite;
 }
 
 .banner-shape .shape3 {
   position: absolute;
   left: 25%;
   top: 17%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .banner-shape .shape4 {
   position: absolute;
   left: 50%;
   top: 40%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .banner-shape .shape5 {
   position: absolute;
   left: 60%;
   top: 25%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .banner-area-two {
@@ -1618,58 +1614,31 @@ Main Banner Area CSS
 }
 
 .banner-img-2 {
-<<<<<<< HEAD
-=======
-  margin-top: 100px;
-  position: relative;
-  z-index: 1;
-  background-image: url("../../assets/img/Group-2117.webp");
-  background-repeat: no-repeat;
-  height: 700px;
-  width: 100%;
-  background-size: contain;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  position: absolute;
+  right: 0;
   -webkit-animation: movebounce-up 9s infinite;
           animation: movebounce-up 9s infinite;
 }
 
-.banner-img-2 .inner-img {
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
-  position: absolute;
-  right: 0;
-  animation: movebounce-up 9s infinite;
-}
-<<<<<<< HEAD
 .banner-img-2 .inner-img .mail {
   position: relative;
   width: 8%;
   right: 0;
   left: 32rem;
 }
+
 .banner-img-2 .inner-img .text {
   position: relative;
   width: 8%;
   left: -22rem;
 }
+
 .banner-img-2 .inner-img .floder {
   position: relative;
   width: 8%;
   top: -18rem;
   right: -17px;
   z-index: -1;
-=======
-
-.banner-img-2 .inner-img img {
-  width: 80%;
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 }
 
 .banner-bottom-shape .shape-one {
@@ -1697,14 +1666,16 @@ Main Banner Area CSS
   position: absolute;
   top: 22%;
   left: 35%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 .banner-bottom-shape .banner-dots2 {
   position: absolute;
   bottom: 13%;
   right: 12%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 .banner-area-three {
@@ -1961,14 +1932,16 @@ Inner Banner
   position: absolute;
   top: 22%;
   left: 35%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 .inner-banner .inner-banner-shape .inner-banner-dots-2 {
   position: absolute;
   bottom: 32%;
   right: 10%;
-  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 /*================================
@@ -2171,28 +2144,32 @@ About Area
   position: absolute;
   top: 7%;
   right: 30%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .about-shape .shape-3 {
   position: absolute;
   top: 30%;
   right: 10%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .about-shape .shape-4 {
   position: absolute;
   top: 70%;
   right: 7%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .about-shape .shape-5 {
   position: absolute;
   top: 80%;
   right: 15%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 
 .about-content-two .section-title h2 {
@@ -2524,14 +2501,16 @@ Schedule Area
   position: absolute;
   bottom: 50px;
   left: 3%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .schedule-content .schedule-content-shape .shape2 {
   position: absolute;
   bottom: 100px;
   right: 5%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .schedule-shape {
@@ -2698,7 +2677,8 @@ Progress Area
 }
 
 .progress-card:hover::before {
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .progress-card::before {
@@ -2836,14 +2816,16 @@ Progress Area
   position: absolute;
   top: 30%;
   left: 20%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 
 .service-shape .shape2 {
   position: absolute;
   top: 30%;
   right: 3%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .service-area-two {
@@ -2919,7 +2901,8 @@ Progress Area
   right: 0;
   border: 1px dashed #1a1b1e;
   border-radius: 50px;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 
 .service-item .service-item-img .img-circle::after {
@@ -2939,11 +2922,13 @@ Progress Area
   top: 25px;
   position: relative;
   z-index: 1;
-  animation: none;
+  -webkit-animation: none;
+          animation: none;
 }
 
 .service-item .service-item-img a img {
-  animation: none;
+  -webkit-animation: none;
+          animation: none;
   max-width: 100%;
   height: 40px;
 }
@@ -2979,42 +2964,48 @@ Progress Area
 .service-item .learn-btn:hover i {
   color: #2966be;
   border-color: #2966be;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 
 .service-two-shape .shape-in1 {
   position: absolute;
   top: 0;
   left: 20%;
-  animation: flash 3s infinite linear;
+  -webkit-animation: flash 3s infinite linear;
+          animation: flash 3s infinite linear;
 }
 
 .service-two-shape .shape-in2 {
   position: absolute;
   top: 30%;
   left: 5%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .service-two-shape .shape-in3 {
   position: absolute;
   top: 40%;
   left: 2%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .service-two-shape .shape-in4 {
   position: absolute;
   top: 45%;
   right: 5%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .service-two-shape .shape-in5 {
   position: absolute;
   top: 60%;
   right: 2%;
-  animation: flash 3s infinite linear;
+  -webkit-animation: flash 3s infinite linear;
+          animation: flash 3s infinite linear;
 }
 
 .service-another {
@@ -3121,7 +3112,8 @@ Progress Area
 .service-another-card:hover .learn-btn i {
   color: #ffffff;
   border-color: #ffffff;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 
 .service-another-card::before {
@@ -3195,49 +3187,56 @@ Progress Area
 .service-another-card .learn-btn:hover i {
   color: #ffffff;
   border-color: #ffffff;
-  animation: rotated360 9s infinite linear;
+  -webkit-animation: rotated360 9s infinite linear;
+          animation: rotated360 9s infinite linear;
 }
 
 .service-another-shape .shape-1 {
   position: absolute;
   top: 10%;
   left: 10%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .service-another-shape .shape-2 {
   position: absolute;
   top: 50%;
   left: 3%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .service-another-shape .shape-3 {
   position: absolute;
   top: 80%;
   left: 1%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .service-another-shape .shape-4 {
   position: absolute;
   top: 13%;
   right: 5%;
-  animation: running-in 10s infinite linear;
+  -webkit-animation: running-in 10s infinite linear;
+          animation: running-in 10s infinite linear;
 }
 
 .service-another-shape .shape-5 {
   position: absolute;
   top: 35%;
   right: 3%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .service-another-shape .shape-6 {
   position: absolute;
   top: 55%;
   right: 1%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .service-icon-bg {
@@ -4763,28 +4762,32 @@ Mission Area
   position: absolute;
   top: 10%;
   left: 2%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .mission-shape .shape2 {
   position: absolute;
   top: 64%;
   left: 1%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .mission-shape .shape3 {
   position: absolute;
   top: 10%;
   right: 45%;
-  animation: rotated360 15s linear infinite;
+  -webkit-animation: rotated360 15s linear infinite;
+          animation: rotated360 15s linear infinite;
 }
 
 .mission-shape .shape4 {
   position: absolute;
   top: 15%;
   right: 7%;
-  animation: running-in 15s linear infinite;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
 }
 
 /*==================================
@@ -4961,42 +4964,48 @@ Pricing Area
   position: absolute;
   top: 20%;
   left: 0%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 .pricing-shape .shape2 {
   position: absolute;
   top: 50%;
   left: 1%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 
 .pricing-shape .shape3 {
   position: absolute;
   bottom: 3%;
   left: 3%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .pricing-shape .shape4 {
   position: absolute;
   top: 7%;
   right: 7%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .pricing-shape .shape5 {
   position: absolute;
   top: 25%;
   right: 0;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 
 .pricing-shape .shape6 {
   position: absolute;
   top: 65%;
   right: 2%;
-  animation: running-in 16s infinite linear;
+  -webkit-animation: running-in 16s infinite linear;
+          animation: running-in 16s infinite linear;
 }
 
 /*==================================
@@ -5116,7 +5125,8 @@ Team Area
 
 .team-item .team-content .social-link li:nth-child(1) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-item .team-content .social-link li:nth-child(2) a {
@@ -5125,7 +5135,8 @@ Team Area
 
 .team-item .team-content .social-link li:nth-child(2) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-item .team-content .social-link li:nth-child(3) a {
@@ -5134,7 +5145,8 @@ Team Area
 
 .team-item .team-content .social-link li:nth-child(3) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-item .team-content .social-link li:nth-child(4) a {
@@ -5143,7 +5155,8 @@ Team Area
 
 .team-item .team-content .social-link li:nth-child(4) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-shape .team-shape1 {
@@ -5157,70 +5170,80 @@ Team Area
   position: absolute;
   top: 20%;
   left: 10%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .team-shape .team-shape3 {
   position: absolute;
   top: 20%;
   right: 10%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .team-shape .team-shape4 {
   position: absolute;
   bottom: 5%;
   right: 40%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .team-two-shape .shape1 {
   position: absolute;
   top: 5%;
   left: 5%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .team-two-shape .shape2 {
   position: absolute;
   top: 40%;
   left: 2%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .team-two-shape .shape3 {
   position: absolute;
   top: 60%;
   left: 1%;
-  animation: running-in 15s linear infinite;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
 }
 
 .team-two-shape .shape4 {
   position: absolute;
   top: 5%;
   right: 10%;
-  animation: movebounce-up 4s linear infinite;
+  -webkit-animation: movebounce-up 4s linear infinite;
+          animation: movebounce-up 4s linear infinite;
 }
 
 .team-two-shape .shape5 {
   position: absolute;
   top: 35%;
   right: 3%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .team-two-shape .shape6 {
   position: absolute;
   top: 65%;
   right: 5%;
-  animation: running-in 15s linear infinite;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
 }
 
 .team-two-shape .shape7 {
   position: absolute;
   bottom: 0;
   right: 35%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .team-area-two {
@@ -5389,7 +5412,8 @@ Team Area
 
 .team-card .content .social-link li:nth-child(1) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-card .content .social-link li:nth-child(2) a {
@@ -5398,7 +5422,8 @@ Team Area
 
 .team-card .content .social-link li:nth-child(2) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-card .content .social-link li:nth-child(3) a {
@@ -5407,7 +5432,8 @@ Team Area
 
 .team-card .content .social-link li:nth-child(3) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-card .content .social-link li:nth-child(4) a {
@@ -5416,7 +5442,8 @@ Team Area
 
 .team-card .content .social-link li:nth-child(4) a:hover {
   color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .team-card-mt {
@@ -5466,7 +5493,8 @@ Testimonial Area
   position: absolute;
   top: -20px;
   left: 5%;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 
 .testimonial-list .list-img-2 {
@@ -5475,28 +5503,32 @@ Testimonial Area
   left: 0;
   right: 0;
   text-align: center;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 
 .testimonial-list .list-img-3 {
   position: absolute;
   top: 60%;
   left: -50px;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 
 .testimonial-list .list-img-4 {
   position: absolute;
   top: 5%;
   right: -20px;
-  animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 1s linear infinite;
+          animation: pulse 1s linear infinite;
 }
 
 .testimonial-list .list-img-5 {
   position: absolute;
   bottom: 0;
   right: 110px;
-  animation: pulse 2s linear infinite;
+  -webkit-animation: pulse 2s linear infinite;
+          animation: pulse 2s linear infinite;
 }
 
 .testimonial-title h2 {
@@ -5683,28 +5715,32 @@ Testimonial Area
   position: absolute;
   top: 30%;
   left: 2%;
-  animation: animationFramesOne 10s linear infinite;
+  -webkit-animation: animationFramesOne 10s linear infinite;
+          animation: animationFramesOne 10s linear infinite;
 }
 
 .blog-shape .shape2 {
   position: absolute;
   top: 60%;
   left: 4%;
-  animation: animationFramesOne 15s linear infinite;
+  -webkit-animation: animationFramesOne 15s linear infinite;
+          animation: animationFramesOne 15s linear infinite;
 }
 
 .blog-shape .shape3 {
   position: absolute;
   top: 50%;
   right: 2%;
-  animation: flash 5s infinite linear;
+  -webkit-animation: flash 5s infinite linear;
+          animation: flash 5s infinite linear;
 }
 
 .blog-shape .shape4 {
   position: absolute;
   top: 80%;
   right: 4%;
-  animation: rotated360 6s infinite linear;
+  -webkit-animation: rotated360 6s infinite linear;
+          animation: rotated360 6s infinite linear;
 }
 
 .blog-area-widget .title h2 {
@@ -5886,7 +5922,8 @@ Blog Details Area
 
 .blog-article .blog-article-share .social-icon li:nth-child(1) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(2) a {
@@ -5895,7 +5932,8 @@ Blog Details Area
 
 .blog-article .blog-article-share .social-icon li:nth-child(2) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(3) a {
@@ -5904,7 +5942,8 @@ Blog Details Area
 
 .blog-article .blog-article-share .social-icon li:nth-child(3) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(4) a {
@@ -5913,7 +5952,8 @@ Blog Details Area
 
 .blog-article .blog-article-share .social-icon li:nth-child(4) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .blog-article .blog-article-share .social-icon li:nth-child(5) a {
@@ -5922,7 +5962,8 @@ Blog Details Area
 
 .blog-article .blog-article-share .social-icon li:nth-child(5) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .blog-article .article-author {
@@ -6678,9 +6719,6 @@ Contact Area
   outline: none;
 }
 
-<<<<<<< HEAD
-.contact-form .form-group .form-control::-moz-placeholder {
-=======
 .contact-form .form-group .form-control::-webkit-input-placeholder {
   color: #7f7f7f;
 }
@@ -6690,7 +6728,6 @@ Contact Area
 }
 
 .contact-form .form-group .form-control::-ms-input-placeholder {
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
   color: #7f7f7f;
 }
 
@@ -6901,7 +6938,8 @@ Footer Area
 
 .footer-social-icon .social-link li:nth-child(1) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .footer-social-icon .social-link li:nth-child(2) a {
@@ -6910,7 +6948,8 @@ Footer Area
 
 .footer-social-icon .social-link li:nth-child(2) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .footer-social-icon .social-link li:nth-child(3) a {
@@ -6919,7 +6958,8 @@ Footer Area
 
 .footer-social-icon .social-link li:nth-child(3) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .footer-social-icon .social-link li:nth-child(4) a {
@@ -6928,7 +6968,8 @@ Footer Area
 
 .footer-social-icon .social-link li:nth-child(4) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .footer-social-icon .social-link li:nth-child(5) a {
@@ -6937,7 +6978,8 @@ Footer Area
 
 .footer-social-icon .social-link li:nth-child(5) a:hover {
   background-color: #ff3900;
-  animation: tada 1s linear;
+  -webkit-animation: tada 1s linear;
+          animation: tada 1s linear;
 }
 
 .footer-widget h3 {
@@ -7426,7 +7468,8 @@ Preloader CSS
   border-radius: 5px;
   background-color: #ffffff;
   margin: 100px auto;
-  animation: rotate-in 1.2s infinite ease-in-out;
+  -webkit-animation: rotate-in 1.2s infinite ease-in-out;
+          animation: rotate-in 1.2s infinite ease-in-out;
 }
 
 /*==================================
@@ -7475,8 +7518,6 @@ Back To Top Button
 /*==================================
 Animation CSS
 ====================================*/
-<<<<<<< HEAD
-=======
 @-webkit-keyframes rotated360 {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -7488,7 +7529,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes rotated360 {
   0% {
     -webkit-transform: rotateZ(0deg);
@@ -7499,8 +7539,6 @@ Animation CSS
     transform: rotateZ(-360deg);
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes rotate-in {
   0% {
@@ -7517,7 +7555,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes rotate-in {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
@@ -7532,8 +7569,6 @@ Animation CSS
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes animationFramesOne {
   0% {
@@ -7562,7 +7597,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes animationFramesOne {
   0% {
     -webkit-transform: translate(0px, 0px) rotate(0deg);
@@ -7589,8 +7623,6 @@ Animation CSS
     transform: translate(0px, 0px) rotate(0deg);
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes opacity-option {
   0% {
@@ -7604,7 +7636,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes opacity-option {
   0% {
     opacity: 1;
@@ -7616,8 +7647,6 @@ Animation CSS
     opacity: 1;
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes running-in {
   0% {
@@ -7634,7 +7663,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes running-in {
   0% {
     -webkit-transform: translate(0, 0);
@@ -7649,8 +7677,6 @@ Animation CSS
     transform: translate(0, 0);
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes movebounce-in {
   0% {
@@ -7667,7 +7693,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes movebounce-in {
   0% {
     -webkit-transform: translateX(0px);
@@ -7682,8 +7707,6 @@ Animation CSS
     transform: translateX(0px);
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes movebounce-up {
   0% {
@@ -7700,7 +7723,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes movebounce-up {
   0% {
     -webkit-transform: translateY(0px);
@@ -7715,8 +7737,6 @@ Animation CSS
     transform: translateY(0px);
   }
 }
-<<<<<<< HEAD
-=======
 
 @-webkit-keyframes ripple {
   0% {
@@ -7735,7 +7755,6 @@ Animation CSS
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes ripple {
   0% {
     -webkit-transform: scale(1);
@@ -7911,8 +7930,10 @@ Buy Now Btn
   background-repeat: no-repeat;
   z-index: -99;
   top: calc(100% - 125px);
-  animation-delay: 5s;
-  animation: flash 5s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
 }
 
 .session-third::after {
@@ -7926,8 +7947,10 @@ Buy Now Btn
   background-repeat: no-repeat;
   z-index: -99;
   top: calc(100% - 125px);
-  animation: flash 5s infinite;
-  animation-delay: 5s;
+  -webkit-animation: flash 5s infinite;
+          animation: flash 5s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
   background-position: right;
   right: 0;
 }
@@ -8026,12 +8049,8 @@ Buy Now Btn
   transition: all .9s;
   border-radius: 10rem;
   z-index: -1;
-<<<<<<< HEAD
-  animation: gani 0.9s infinite;
-=======
   -webkit-animation: gani .9s infinite;
           animation: gani .9s infinite;
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 }
 
 .play-more:hover {
@@ -8040,7 +8059,8 @@ Buy Now Btn
 
 .play-more:hover:before {
   width: 100%;
-  animation: gani 0s 1;
+  -webkit-animation: gani 0s 1;
+          animation: gani 0s 1;
 }
 
 .footer-list-line {
@@ -8049,6 +8069,15 @@ Buy Now Btn
 
 .w-80 {
   width: 80%;
+}
+
+@-webkit-keyframes gani {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
 }
 
 @keyframes gani {
@@ -8087,8 +8116,6 @@ Buy Now Btn
   display: none;
 }
 
-<<<<<<< HEAD
-=======
 @-webkit-keyframes result {
   0% {
     opacity: 0;
@@ -8112,7 +8139,6 @@ Buy Now Btn
   }
 }
 
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 @keyframes result {
   0% {
     opacity: 0;
@@ -8146,9 +8172,16 @@ Buy Now Btn
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  -webkit-animation: textclip 2s linear infinite;
+          animation: textclip 2s linear infinite;
   display: inline-block;
   font-size: 190px;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 @keyframes textclip {
@@ -8196,7 +8229,8 @@ area {
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
-  animation: animate 25s linear infinite;
+  -webkit-animation: animate 25s linear infinite;
+          animation: animate 25s linear infinite;
   bottom: -150px;
 }
 
@@ -8216,77 +8250,86 @@ area {
   left: 25%;
   width: 80px;
   height: 80px;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .circles li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
-  animation-delay: 2s;
-  animation-duration: 12s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
 }
 
 .circles li:nth-child(3) {
   left: 70%;
   width: 20px;
   height: 20px;
-  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
 .circles li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
-  animation-delay: 0s;
-  animation-duration: 18s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
 }
 
 .circles li:nth-child(5) {
   left: 65%;
   width: 20px;
   height: 20px;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .circles li:nth-child(6) {
   left: 75%;
   width: 110px;
   height: 110px;
-  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 .circles li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
-  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 .circles li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
-  animation-delay: 15s;
-  animation-duration: 45s;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
 }
 
 .circles li:nth-child(9) {
   left: 20%;
   width: 15px;
   height: 15px;
-  animation-delay: 2s;
-  animation-duration: 35s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 35s;
+          animation-duration: 35s;
 }
 
 .circles li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
-<<<<<<< HEAD
-  animation-delay: 0s;
-  animation-duration: 11s;
-=======
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   -webkit-animation-duration: 11s;
@@ -8306,7 +8349,6 @@ area {
     opacity: 0;
     border-radius: 50%;
   }
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 }
 
 @keyframes animate {
@@ -8499,6 +8541,12 @@ area {
   background: #fff;
 }
 
+.service-line-main .descr {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .service-line {
   margin: 5px 0px;
 }
@@ -8511,6 +8559,7 @@ area {
 
 .service-components {
   border: 3px solid #1E5FAB;
+  border-radius: 5px;
   padding: 10px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -8524,16 +8573,29 @@ area {
   line-height: 6;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-components {
+    width: 175px;
+  }
+}
+
 .method-bg {
   background-image: url("/assets/img/Vector 7.svg");
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
 =======
   height: 150vh;
+=======
+  width: 100%;
+>>>>>>> Stashed changes
   background-repeat: no-repeat;
   background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
   position: relative;
 }
 
@@ -8615,5 +8677,301 @@ area {
   font-style: normal;
   font-weight: 100;
 >>>>>>> 04fee1422f728bd556c8eac43c25e1554cb76640
+}
+
+.low-code {
+  position: relative;
+}
+
+.low-code::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/cube2.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.tammina-session {
+  background-image: url("../img/whybg.svg");
+  width: 100%;
+  background-size: cover;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  padding: 100px 0px;
+}
+
+.tammina-session .tammina-session-reports {
+  position: relative;
+}
+
+.tammina-session .tammina-session-reports::after {
+  content: '';
+  background-image: url("../TAMS imgs/Vector-squre.svg");
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  right: 0;
+  top: -83px;
+  -webkit-animation: rotating 7s linear infinite;
+          animation: rotating 7s linear infinite;
+}
+
+.tammina-session .tammina-session-align {
+  position: relative;
+  top: 3rem;
+}
+
+.tammina-session .design-card-support {
+  height: auto;
+  background: linear-gradient(96.21deg, #E150A7 22.34%, #927AD3 73.25%);
+  -webkit-box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+          box-shadow: 0px 4px 33px rgba(0, 0, 0, 0.44);
+  border-radius: 33px;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.tammina-session .design-card-support h2 {
+  font-family: 'Racing Sans One';
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+}
+
+@media (max-width: 991px) {
+  .tammina-session .design-card-support {
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+.tammina-session .design-card-support .Connect-content {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.tammina-session .design-card-support .Connect-content .Connect-btn {
+  border: 3px solid #FFFFFF;
+  border-radius: 9px;
+  height: 60px;
+  width: 215px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 45px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-animation: flicker 0.5s ease-in-out infinite alternate;
+          animation: flicker 0.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px blue;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px blue;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px blue;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px blue;
+  }
+}
+
+.tammina-session .design-card-support .Connect-content .Connect-btn a {
+  color: #fff;
+}
+
+.tammina-session .tech-robo-align {
+  position: relative;
+  top: 41px;
+}
+
+.tammina-session .tammina-block {
+  position: relative;
+}
+
+.tammina-session .tammina-block::after {
+  content: '';
+  width: 150px;
+  height: 150px;
+  background-image: url("./TAMS imgs/why-tech-3D-traingle-1-big.svg");
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  top: -150px;
+  right: 0;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
+}
+
+.tammina-session .tammina-text {
+  position: relative;
+}
+
+.tammina-session .tammina-text::before {
+  content: '';
+  width: 75px;
+  height: 75px;
+  background-image: url("../TAMS imgs/why-tech-3D-traingle-2-small.svg");
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  left: -44px;
+  -webkit-animation: running-in 15s linear infinite;
+          animation: running-in 15s linear infinite;
+}
+
+.tem-model {
+  background: #ffff;
+  border-radius: 33px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tem-model h5 {
+  font-size: 34px;
+  width: 70%;
+  margin: auto;
+  padding: 15px 0 30px 0;
+}
+
+.tem-model .stay p {
+  color: white;
+  font-size: 24px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model .think h2 {
+  color: #ffff00;
+  font-size: 40px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model .Free-access p {
+  color: white;
+  font-size: 44px;
+  width: 80%;
+  margin: auto;
+  padding: 18px 0 18px 0;
+}
+
+.tem-model-header {
+  background: #229CF4;
+  height: 32.31px;
+  border-radius: 32px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  position: relative;
+}
+
+.tem-model-header::before {
+  content: 'REGISTER';
+  position: absolute;
+  width: 321px;
+  height: 75px;
+  border-radius: 50px;
+  background: #229CF4;
+  z-index: 9;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  -webkit-filter: drop-shadow(2px 0px 8px #229CF4);
+          filter: drop-shadow(2px 0px 8px #229CF4);
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .tem-model-header::before {
+    width: 165px;
+    height: 45px;
+    font-size: 18px;
+    top: 30px;
+  }
+}
+
+.form-card {
+  background: #F9F9F9;
+  -webkit-box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.24);
+  border-radius: 13px;
+}
+
+.items-seleted-text {
+  background: linear-gradient(90.54deg, #4D7EDE -6.84%, #27AEE8 26.14%, #FF7EF2 64.31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.items-seleted-text h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.items-cards-bg {
+  background-image: url("../img/Clip path.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+}
+
+#register {
+  display: none;
+}
+
+.register-card {
+  position: relative;
+}
+
+.register-card .cancel-form-btn {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 0px;
+  background: #FF4D4D;
+  border: 3px solid #FFFFFF;
+  -webkit-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+  right: -20px;
+  border-radius: 50%;
+  background-image: url("../img/Vector-x.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 9;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

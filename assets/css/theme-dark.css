@@ -146,12 +146,8 @@
   transition: all .9s;
   border-radius: 10rem;
   z-index: -1;
-<<<<<<< HEAD
-  animation: gani 0.9s infinite;
-=======
   -webkit-animation: gani .9s infinite;
           animation: gani .9s infinite;
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
 }
 
 .theme-dark body .play-more:hover {
@@ -160,7 +156,8 @@
 
 .theme-dark body .play-more:hover:before {
   width: 100%;
-  animation: gani 0s 1;
+  -webkit-animation: gani 0s 1;
+          animation: gani 0s 1;
 }
 
 .theme-dark body .mini-content {
@@ -251,9 +248,6 @@
   background-color: #252525;
   color: #ffffff;
 }
-<<<<<<< HEAD
-.theme-dark .search-overlay .search-form form .input-search::-moz-placeholder {
-=======
 
 .theme-dark .search-overlay .search-form form .input-search::-webkit-input-placeholder {
   color: #ffffff;
@@ -264,7 +258,6 @@
 }
 
 .theme-dark .search-overlay .search-form form .input-search::-ms-input-placeholder {
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
   color: #ffffff;
 }
 
@@ -276,9 +269,6 @@
   border: none;
   outline: none;
 }
-<<<<<<< HEAD
-.theme-dark .search-overlay .search-form form .input-search:focus::-moz-placeholder {
-=======
 
 .theme-dark .search-overlay .search-form form .input-search:focus::-webkit-input-placeholder {
   color: #ffffff;
@@ -289,7 +279,6 @@
 }
 
 .theme-dark .search-overlay .search-form form .input-search:focus::-ms-input-placeholder {
->>>>>>> f69a2c97b5289d72fd154729b5a1e51d8962860b
   color: #ffffff;
 }
 
