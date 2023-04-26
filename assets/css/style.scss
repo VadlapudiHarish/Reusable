@@ -7431,22 +7431,17 @@ top: 10px;
     }
 }
 // .service-trai{
-//     position: absolute;
-//     &::before{
-//         content: "";
-//         position: relative;
-//         background-image: url("../img/Frame.svg");
-//         background-repeat: no-repeat;
-//         width: 50%;
-//         height: 50%;
-//     }
+//    @media (min-width: 320px) and (max-width:767px){
+//     padding: 95px;
+//    }
 // }
 
 .service-line-main{
     .descr{
         font-size: 20px;
         font-weight: 600;
-        font-style: normal
+        font-style: normal;
+        text-align: center;
     }
 }
 
@@ -7475,10 +7470,15 @@ top: 10px;
 
 .method-bg{
     background-image: url("/assets/img/Vector\ 7.svg");
-    height: 120vh;
+    // height: 190vh;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    @media (min-width:768px) and (max-width: 1200px){
+        height: 1060px;
+    }
+    @media (min-width: 320px) and (max-width: 767px){
+        height: auto;
+    }
     .method-first-content{
         padding: 50px;
     }

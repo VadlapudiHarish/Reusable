@@ -8545,6 +8545,7 @@ area {
   font-size: 20px;
   font-weight: 600;
   font-style: normal;
+  text-align: center;
 }
 
 .service-line {
@@ -8581,9 +8582,20 @@ area {
 
 .method-bg {
   background-image: url("/assets/img/Vector 7.svg");
-  height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .method-bg {
+    height: 1060px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .method-bg {
+    height: auto;
+  }
 }
 
 .method-bg .method-first-content {
