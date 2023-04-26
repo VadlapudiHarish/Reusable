@@ -1307,7 +1307,7 @@ Main Banner Area CSS
 }
 
 .banner-area-two {
-    background-image: url(../img/home-two/home-two-bg.webp);
+    background-image: url(../ARC-img/Home-bg.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1335,6 +1335,9 @@ Main Banner Area CSS
     padding-bottom: 170px;
     :nth-child(2){
         color: #00FFDC;
+        // color: white;
+        font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
     }
     :nth-child(3){
         color: #FFCC00;
@@ -1352,10 +1355,10 @@ Main Banner Area CSS
         font-size: 15px;
     }
     h1 {
-       font-size: 66px;
+       font-size: 52px;
        color: $color-white;
-       font-weight: 600;
-       line-height: 1.2;
+       font-weight: 800;
+       line-height: 55px;
        margin: 0;
        b {
            color: $main-color;
@@ -1443,25 +1446,43 @@ Main Banner Area CSS
     }
 }
 .banner-img-2 {
-    margin-top: 100px;
-    position: relative;
-    z-index: 1;
-    background-image: url('../../assets/img/Group-2117.webp');
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 100%;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // margin-top: 100px;
+    // position: relative;
+    // z-index: 1;
+    // background-image: url('../../assets/img/Group-2117.webp');
+    // background-repeat: no-repeat;
+    // height: 700px;
+    // width: 100%;
+    // background-size: contain;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    position: absolute;
+    right: 0;
     animation: movebounce-up 9s infinite;
     .inner-img{
-        position: absolute;
-        text-align: center;
+    
         img{
-            width: 80%;
+            // width: 100%;
         }
-       
+       .mail{
+        position: relative;
+    width: 8%;
+    right: 0;
+    left: 32rem;
+       }
+       .text{
+        position: relative;
+        width: 8%;
+        left: -22rem;
+       }
+       .floder{
+        position: relative;
+    width: 8%;
+    top: -18rem;
+    right: -17px;
+    z-index: -1;
+       }
     }
     // animation: movebounce-up 9s infinite;
 }
