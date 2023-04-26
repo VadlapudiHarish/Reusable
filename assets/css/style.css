@@ -8526,12 +8526,94 @@ area {
 
 .method-bg {
   background-image: url("/assets/img/Vector 7.svg");
+<<<<<<< HEAD
   height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
+=======
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.method-bg::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/circlesun.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .method-bg::before {
+    display: none;
+  }
+}
+
+.method-bg::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/circle3.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  left: 90%;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .method-bg {
+    height: 180vh;
+    padding: 10px;
+  }
+}
+
+.method-bg .method-first-content {
+  padding: 50px;
+>>>>>>> 04fee1422f728bd556c8eac43c25e1554cb76640
 }
 
 .method-bg .method-content {
   padding: 95px 0px 10px 0px;
+<<<<<<< HEAD
+=======
+  position: relative;
+}
+
+.method-bg .method-content::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/circle2.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .method-bg .method-content::before {
+    display: none;
+  }
+}
+
+.method-bg .method-content p {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.method-bg .method-steps b {
+  font-size: 25px;
+}
+
+.method-bg .method-steps span {
+  font-size: 20px;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 100;
+>>>>>>> 04fee1422f728bd556c8eac43c25e1554cb76640
 }
 /*# sourceMappingURL=style.css.map */
