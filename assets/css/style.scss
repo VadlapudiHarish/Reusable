@@ -7542,23 +7542,32 @@ top: 10px;
             position: absolute;
             background-image: url("../img/circle2.svg");
             background-repeat: no-repeat;
-            left: 50%;
-            top: 28%;
+            // left: 50%;
+            top: 0;
             @media (min-width: 320px) and (max-width: 767px){
                 display: none;
             }
         }
-        // &::after{
-        //     content: "";
-        //     position: absolute;
-        //     background-image: url("../img/circle3.svg");
-        //     background-repeat: no-repeat;
-        //     width: 100%;
-        //     height: 100%;
-        //     top: 10%;
-        //     left: 90%;
-            
-        // }
+        &::after{
+            content: "";
+            position: absolute;
+            background-image: url("../img/cubesquare.svg");
+            background-repeat: no-repeat;
+            width: 115px;
+            height: 100px;
+            top: 0;
+            bottom: 0;
+            transform: rotate(360deg);
+            animation: rotation 7s linear infinite;
+        }
+        @keyframes rotation {
+            from {
+              transform: rotate(0deg);
+            }
+            to {
+              transform: rotate(360deg);
+            }
+          }
         p{
             font-size: 20px;
             font-weight: 100;
@@ -7586,10 +7595,20 @@ top: 10px;
         position: absolute;
         background-image: url("../img/cube2.svg");
         background-repeat: no-repeat;
-        width: 100%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
         left: 0;
+        transform: rotate(360deg);
+        animation: rotation 7s linear infinite;
     }
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
 }
 
 .tammina-session{
