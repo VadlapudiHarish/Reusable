@@ -1332,6 +1332,27 @@ Main Banner Area CSS
     .section-first{
         display: flex;
         align-items: center;
+        .mail{
+         position: absolute;
+         top: 409px;
+         right: 84px;
+         z-index: 1;
+        }
+        .text{
+        position: absolute;
+        right: 31rem;
+        }
+        .code{
+         position: absolute;
+         bottom: 22rem;
+         right: 18rem;
+        }
+        .folder{
+        position: absolute;
+        top: 11rem;
+        right: 25rem;
+        // z-index: 999999999999;
+        }
         .first-section-img{
             position: absolute;
             right: 0;

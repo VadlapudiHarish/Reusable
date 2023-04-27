@@ -1232,30 +1232,39 @@ Main Banner Area CSS
   right: 0;
   width: 100%;
   height: 700px;
-<<<<<<< HEAD
-  background: transparent linear-gradient(180deg, #4C8AC1 0%, #195EFF 100%) 0% 0% no-repeat padding-box;
-=======
->>>>>>> 96ec60e398d5130b26c7bd3e1474df4dd33e27f9
   opacity: 1;
   z-index: -1;
 }
-
 .banner-area-two .section-first {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
+.banner-area-two .section-first .mail {
+  position: absolute;
+  top: 409px;
+  right: 84px;
+  z-index: 1;
+}
+.banner-area-two .section-first .text {
+  position: absolute;
+  right: 31rem;
+}
+.banner-area-two .section-first .code {
+  position: absolute;
+  bottom: 22rem;
+  right: 18rem;
+}
+.banner-area-two .section-first .folder {
+  position: absolute;
+  top: 11rem;
+  right: 25rem;
+}
 .banner-area-two .section-first .first-section-img {
   position: absolute;
   right: 0;
   margin: auto;
   width: 70%;
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
   .banner-area-two .section-first .first-section-img {
     display: none;
@@ -2439,22 +2448,6 @@ Progress Area
   font-size: 16px;
   font-weight: 700;
 }
-<<<<<<< HEAD
-.service-item::before {
-  content: "";
-  position: absolute;
-  width: 95%;
-  height: 30px;
-  text-align: center;
-  bottom: -30px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  background-color: #f7f7f7;
-}
-=======
-
->>>>>>> 96ec60e398d5130b26c7bd3e1474df4dd33e27f9
 .service-item:hover h3 a {
   color: #ff3900;
 }
@@ -7145,20 +7138,6 @@ area {
     display: none;
   }
 }
-<<<<<<< HEAD
-.method-bg .method-content::after {
-  content: "";
-  position: absolute;
-  background-image: url("../img/circle3.svg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-  top: 10%;
-  left: 90%;
-}
-=======
-
->>>>>>> 96ec60e398d5130b26c7bd3e1474df4dd33e27f9
 .method-bg .method-content p {
   font-size: 20px;
   font-weight: 100;
@@ -7409,14 +7388,9 @@ area {
   background-position: center;
   z-index: 9;
   cursor: pointer;
-<<<<<<< HEAD
-}/*# sourceMappingURL=style.css.map */
-=======
 }
 
 .register-text h4 {
   color: #273B98;
   font-size: 20px;
-}
-/*# sourceMappingURL=style.css.map */
->>>>>>> 96ec60e398d5130b26c7bd3e1474df4dd33e27f9
+}/*# sourceMappingURL=style.css.map */
