@@ -1475,36 +1475,47 @@ Main Banner Area CSS
   opacity: 1;
   z-index: -1;
 }
+
 .banner-area-two .section-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .banner-area-two .section-first .mail {
   position: absolute;
   top: 409px;
   right: 84px;
   z-index: 1;
 }
+
 .banner-area-two .section-first .text {
   position: absolute;
   right: 31rem;
 }
+
 .banner-area-two .section-first .code {
   position: absolute;
   bottom: 22rem;
   right: 18rem;
 }
+
 .banner-area-two .section-first .folder {
   position: absolute;
   top: 11rem;
   right: 25rem;
 }
+
 .banner-area-two .section-first .first-section-img {
   position: absolute;
   right: 0;
   margin: auto;
   width: 70%;
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .banner-area-two .section-first .first-section-img {
     display: none;
@@ -2887,10 +2898,7 @@ Progress Area
   font-size: 16px;
   font-weight: 700;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 .service-item:hover h3 a {
   color: #ff3900;
 }
@@ -8606,7 +8614,7 @@ area {
 }
 
 .method-bg {
-  background-image: url("/assets/img/Vector 7.svg");
+  background-image: url("../img/Vector-7.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8665,8 +8673,6 @@ area {
     display: none;
   }
 }
-<<<<<<< Updated upstream
-=======
 
 .method-bg .method-content::after {
   content: "";
@@ -8705,7 +8711,6 @@ area {
   }
 }
 
->>>>>>> Stashed changes
 .method-bg .method-content p {
   font-size: 20px;
   font-weight: 100;
@@ -9013,9 +9018,5 @@ area {
 .register-text h4 {
   color: #273B98;
   font-size: 20px;
-<<<<<<< Updated upstream
-}/*# sourceMappingURL=style.css.map */
-=======
 }
 /*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
