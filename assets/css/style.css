@@ -1492,9 +1492,21 @@ Main Banner Area CSS
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .banner-area-two .section-first .mail {
+    display: none;
+  }
+}
+
 .banner-area-two .section-first .text {
   position: absolute;
   right: 31rem;
+}
+
+@media (max-width: 767px) {
+  .banner-area-two .section-first .text {
+    display: none;
+  }
 }
 
 .banner-area-two .section-first .code {
@@ -1503,10 +1515,22 @@ Main Banner Area CSS
   right: 18rem;
 }
 
+@media (max-width: 767px) {
+  .banner-area-two .section-first .code {
+    display: none;
+  }
+}
+
 .banner-area-two .section-first .folder {
   position: absolute;
   top: 11rem;
   right: 25rem;
+}
+
+@media (max-width: 767px) {
+  .banner-area-two .section-first .folder {
+    display: none;
+  }
 }
 
 .banner-area-two .section-first .first-section-img {
@@ -8627,7 +8651,7 @@ area {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .method-bg {
-    height: 335vh;
+    height: 345vh;
   }
 }
 
@@ -8687,6 +8711,12 @@ area {
           transform: rotate(360deg);
   -webkit-animation: rotation 7s linear infinite;
           animation: rotation 7s linear infinite;
+}
+
+@media (max-width: 767px) {
+  .method-bg .method-content::after {
+    display: none;
+  }
 }
 
 @-webkit-keyframes rotation {

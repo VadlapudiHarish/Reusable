@@ -1337,21 +1337,32 @@ Main Banner Area CSS
          top: 409px;
          right: 84px;
          z-index: 1;
+         @media (max-width:767px){
+            display: none;
+        }
         }
         .text{
         position: absolute;
         right: 31rem;
+        @media (max-width:767px){
+            display: none;
+        }
         }
         .code{
          position: absolute;
          bottom: 22rem;
          right: 18rem;
+         @media (max-width:767px){
+            display: none;
+        }
         }
         .folder{
         position: absolute;
         top: 11rem;
         right: 25rem;
-        // z-index: 999999999999;
+        @media (max-width:767px){
+            display: none;
+        }
         }
         .first-section-img{
             position: absolute;
@@ -7514,7 +7525,7 @@ top: 10px;
         height: 1060px;
     }
     @media (min-width: 320px) and (max-width: 767px){
-        height: 335vh;
+        height: 345vh;
     }
     .method-first-content{
         padding: 50px;
@@ -7559,6 +7570,9 @@ top: 10px;
             bottom: 0;
             transform: rotate(360deg);
             animation: rotation 7s linear infinite;
+            @media (max-width:767px){
+                display: none;
+            }
         }
         @keyframes rotation {
             from {
